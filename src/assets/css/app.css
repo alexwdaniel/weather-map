@@ -1,0 +1,50 @@
+div#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+div.add-location {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+  width:50%;
+}
+
+div.mapbox-marker i.wi-celsius {
+  font-size: 24px;
+  vertical-align: bottom;
+  line-height: 20px;
+}
+
+div.mapbox-marker .marker-comments .comment {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+div.add-comment {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  z-index: 1;
+  padding: 10px 12px;
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+div.add-comment i.glyphicon-plus {
+  cursor: pointer;
+}
+
+div.add-comment .comment-form textarea {
+  margin-bottom: 20px;
+}
+
+div.add-comment .comment-form select {
+  margin-bottom: 20px;
+}

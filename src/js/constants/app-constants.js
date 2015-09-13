@@ -1,0 +1,8 @@
+var appConstants = {
+  ADD_LOCATION: "ADD_LOCATION",
+  ADD_COMMENT: "ADD_COMMENT",
+  GEOCODE_RESPONSE: "GEOCODE_RESPONSE",
+  WEATHER_RESPONSE: "WEATHER_RESPONSE"
+};
+
+module.exports = appConstants;
