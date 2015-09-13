@@ -1,0 +1,31 @@
+{
+  "name": "flux-map",
+  "version": "1.0.0",
+  "description": "Display weather data based on input location.",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "map"
+  ],
+  "author": "Alex Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "flux": "~2.0.3",
+    "jquery": "~2.1.4",
+    "lodash": "^3.10.1",
+    "react": "~0.13.3",
+    "react-async": "~2.1.0",
+    "react-router-component": "~0.26.0"
+  },
+  "devDependencies": {
+    "browserify": "~11.0.1",
+    "gulp": "~3.9.0",
+    "reactify": "~1.1.1",
+    "vinyl-source-stream": "~1.1.0"
+  }
+}
